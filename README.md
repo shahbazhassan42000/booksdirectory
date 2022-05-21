@@ -16,6 +16,7 @@ The last command automatically runs the API exposed on http://localhost:8080
 
 # Deployment
 To create a build for production you need to build your current project with the following command:
+
 `$ npm run build`
 
 
