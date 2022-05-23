@@ -1,7 +1,7 @@
 {
-  "name": "node-express-es6-airbnb",
+  "name": "books_directory",
   "version": "1.0.0",
-  "description": "Boilerplate to creates node.js API with ES6 Transpiler and airbnb rules configured to eslint. ",
+  "description": "REST API for book JSON object. ",
   "main": "index.js",
   "scripts": {
     "dev": "NODE_ENV=development nodemon src --exec \\\"babel-node src\\\"",
@@ -12,19 +12,14 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "pre-commit": [
-    "precommit-msg",
-    "lint"
+    "precommit-msg"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yoniihdc/node-express-es6-airbnb.git"
+    "url": "https://github.com/shahbazhassan42000/booksdirectory.git"
   },
-  "author": "jperazafeliciano@gmail.com",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/yoniihdc/node-express-es6-airbnb/issues"
-  },
-  "homepage": "https://github.com/yoniihdc/node-express-es6-airbnb#readme",
+  "author": "shahbazhassan42000@gmail.com",
+  "homepage": "https://github.com/shahbazhassan42000/booksdirectory.git#readme",
   "dependencies": {
     "body-parser": "^1.18.2",
     "cors": "^2.8.4",
